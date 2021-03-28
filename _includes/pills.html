@@ -1,0 +1,5 @@
+{% assign items = include.items | split: ", " %}
+
+<div class="pill-box">
+{% for item in items %}<span class="badge bg-secondary me-1">{{ item }}</span>{% endfor %}
+</div>

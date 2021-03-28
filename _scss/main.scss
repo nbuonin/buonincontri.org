@@ -6,11 +6,14 @@ nav.sidebar {
     background-color: #000000;
     $nav-font-color: #7B858D!important;
     color: $nav-font-color;
-    h1 {
+    a {
+        text-decoration: none;
+    }
+    h1 a {
         color: #FFFFFF;
         display: inline-block;
     }
-    .text-muted {
+    a .text-muted {
         color: $nav-font-color;
     }
     @include media-breakpoint-up(md) {
@@ -83,11 +86,18 @@ main {
     @include media-breakpoint-up(md) {
         padding-top: 1em; 
     }
+    h3 {
+        margin-top: 2.5em;
+    }
     a {
         color: #000000;
         &:hover {
             color: #000000;
             font-weight: strong;
         }
+    }
+    .bi-box-arrow-up-right {
+        margin-left: 0.25em;
+        margin-bottom: 5px;
     }
 }

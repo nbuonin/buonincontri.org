@@ -4,11 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 ## Projects
-The projects that I have worked on span many different topics and use a wide range of technologies.
+I have worked on projects that span a wide range of topics and technologies.
 
 ### Locus Tempus
 {% include image.html filename="locus-tempus.png" caption="The user interface of Locus Tempus" %}
-[Site]( https://locustempus.ctl.columbia.edu ) \| [Repository](https://github.com/ccnmtl/locustempus)
+{% include project-link.html url="https://locustempus.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/locustempus" text="Repository" %}
+
+{% include pills.html items="Python, Django, Django Rest Framework, TypeScript, React, Webpack, Cypress, LTI" %}
 
 I am the lead developer of Locus Tempus, a plaform for any instructor at
 Columbia Univiersity to create map-based assignments for thier students. The
@@ -19,7 +21,9 @@ DeckGL, a WebGL-powered framework for visualizing data layers on maps.
 
 ### Fernande Brielh Decruck
 {% include image.html filename="fbd.png" caption="The homepage for Fernande Breilh Decruck" %}
-[Site]( https://fernandedecruck.com ) \| [Site (FR)]( https://fernandedecruck.fr ) \| [Repository](https://github.com/nbuonin/decruck-wagtail)
+{% include project-link.html url="https://fernandedecruck.com" text="Site" %} {% include project-link.html url="https://fernandedecruck.fr" text="French Site" %} {% include project-link.html url="https://github.com/nbuonin/decruck-wagtail" text="Repository" %}
+
+{% include pills.html items="Python, Django, Wagtail CMS, JavaScript, Webpack, PayPal, Docker" %}
 
 The site for Fernande Brielh Decruck is a multi-lingual Django site build using
 the [Wagtail CMS](https://wagtail.io/) framework. The site features a faceted
@@ -30,7 +34,9 @@ an integration with PayPal.
 
 ### Stats Interactives
 {% include image.html filename="stats-interactives.png" caption="A simulation of the linear regression model." %}
-[Site]( https://stats-interactives.ctl.columbia.edu ) \| [Repository](https://github.com/ccnmtl/stats-interactives)
+{% include project-link.html url="https://stats-interactives.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/stats-interactives" text="Repository" %}
+
+{% include pills.html items="React, Single Page App, Webpack, Cypress" %}
 
 Stats Interactives is a single page React application that simulates various
 statistic theorems, built for graduate students in the School of International
@@ -40,7 +46,9 @@ gloss over important details of the theorems.
 
 ### Eureka
 {% include image.html filename="eureka.png" caption="A photo of a Bach cello suite provided the perfect cover image for Eureka's homepage" %}
-[Site]( https://eureka.ctl.columbia.edu ) \| [Repository](https://github.com/ccnmtl/eureka)
+{% include project-link.html url="https://eureka.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/eureka" text="Repository" %}
+
+{% include pills.html items="Python, Django, Wagtail CMS, Webpack, Cypress" %}
 
 Eureka is a digital guidebook for using improvisation in the ear training
 classroom. It was built using Django and Wagtail CMS. The scope of the content
@@ -50,7 +58,9 @@ content editors.
 
 ### Project OHCOE
 {% include image.html filename="ohcoe.png" caption="SVG hearts were used to show a student's progress" %}
-[Site]( https://ohcoe.ctl.columbia.edu ) \| [Repository](https://github.com/ccnmtl/ohcoe)
+{% include project-link.html url="https://ohcoe.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/ohcoe" text="Repository" %}
+
+{% include pills.html items="Hugo, JavaScript, Webpack, Cypress" %}
 
 Project OHCOE is a site that teaches dental students how to intervene if they
 suspect that thier patients have an opiod problem. I built this project with
@@ -59,7 +69,9 @@ assessments written in JavaScript, as well as custom Google Analytic events to
 capture video analytics.
 
 ### Tensor Flock
-[Repository](https://github.com/laurenarnett/TensorFlock)
+{% include project-link.html url="https://github.com/laurenarnett/TensorFlock" text="Repository" %}
+
+{% include pills.html items="OCaml, C, Bash, DroneCI, Docker" %}
 
 TensorFlock is a class project from 2018. Working among a team of four, we
 designed a language that would typecheck the size of tensors at compile time,
@@ -69,7 +81,9 @@ server, and implemting the lambda lifter.
 
 ### Chelsea Symphony
 {% include image.html filename="tcs.png" caption="The Chelsea Symphony" %}
-[Site]( https://chelseasymphony.org ) \| [Repository](https://github.com/nbuonin/chelsea-symphony)
+{% include project-link.html url="https://chelseasymphony.org" text="Site" %} {% include project-link.html url="https://github.com/nbuonin/chelsea-symphony" text="Repository" %}
+
+{% include pills.html items="Python, Django, JavaScript, Webpack, Docker, CircleCI" %}
 
 I have build two generations of websites for The Chelsea Symphony. The first
 version was a Drupal 7 site. A few years later, I migrated the site to Wagtail
