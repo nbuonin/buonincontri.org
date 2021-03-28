@@ -1,0 +1,40 @@
+tools:
+  - category: Languages
+    items:
+      - item: Python (MyPy)
+      - item: Typescript
+      - item: JavaScript
+      - item: SCSS
+      - item: OCaml
+      - item: C, C++
+      - item: Java
+      - item: PHP
+      - item: Bash
+  - category: Frameworks & Testing
+    items:
+      - item: Django
+      - item: Django REST Framework
+      - item: React
+      - item: Cypress
+      - item: Jest
+      - item: Drupal
+      - item: Hugo
+      - item: Jekyll
+  - category: Systems
+    items:
+      - item: NGINX
+      - item: Apache
+      - item: Postgres
+      - item: MySQL
+      - item: SQLite
+      - item: Jenkins
+      - item: Ubuntu/Debian Linux
+      - item: SystemD
+  - category: Cloud & CI/CD
+    items:
+      - item: AWS
+      - item: Google Cloud
+      - item: Digital Ocean
+      - item: Docker
+      - item: Travis
+      - item: CircleCI

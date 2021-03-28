@@ -1,0 +1,51 @@
+---
+layout: base
+---
+
+{{ content }}
+
+<form id="my-form" action="https://formspree.io/f/mzbypylg" method="POST">
+    <div class="row mb-3">
+        <label for="contact-form__email" class="col-md-2 col-form-label">Email</label>
+        <div class="col-md-10">
+            <input type="email" name="email" id="contact-form__email" class="form-control"/>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="contact-form__message" class="col-md-2 col-form-label">Message</label>
+        <div class="col-md-10">
+            <textarea name="message"  id="contact-form__message" class="form-control" rows="5"/>
+            </textarea>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <button id="my-form-button" class="btn btn-dark">Submit</button>
+        </div>
+    </div>
+    <p id="my-form-status"></p>
+</form>
+
+<script>
+    var form = document.getElementById("my-form");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            status.innerHTML = "Thank you for your submission. I'll be in touch soon";
+            form.reset()
+        }).catch(error => {
+            status.innerHTML = "Huh, there was a problem submitting your form. Please try again."
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
