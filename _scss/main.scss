@@ -83,4 +83,11 @@ main {
     @include media-breakpoint-up(md) {
         padding-top: 1em; 
     }
+    a {
+        color: #000000;
+        &:hover {
+            color: #000000;
+            font-weight: strong;
+        }
+    }
 }

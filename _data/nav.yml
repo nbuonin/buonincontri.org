@@ -1,13 +1,9 @@
 navItems:
-
-- title: About
-  url: /
-
-- title: Tools
-  url: /tools/
-
-- title: Projects
-  url: /projects/
-
-- title: Contact
-  url: /contact/
+  - title: About
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Tools
+    url: /tools/
+  - title: Contact
+    url: /contact/
