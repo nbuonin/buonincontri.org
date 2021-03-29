@@ -9,10 +9,14 @@ nav.sidebar {
     a {
         text-decoration: none;
     }
-    h1 a {
-        color: #FFFFFF;
+    h1 {
         display: inline-block;
+        a {
+            color: #FFFFFF;
+            display: inline-block;
+        }
     }
+
     a .text-muted {
         color: $nav-font-color;
     }
@@ -89,6 +93,9 @@ main {
     h3 {
         margin-top: 2.5em;
     }
+    h3.tools-header {
+        margin-top: unset;
+    }
     a {
         color: #000000;
         &:hover {
@@ -99,5 +106,8 @@ main {
     .bi-box-arrow-up-right {
         margin-left: 0.25em;
         margin-bottom: 5px;
+    }
+    .pill-box {
+        margin-bottom: 1em;
     }
 }

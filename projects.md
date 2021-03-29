@@ -4,20 +4,21 @@ title: Projects
 permalink: /projects/
 ---
 ## Projects
-I have worked on projects that span a wide range of topics and technologies.
+My projects span a wide range of topics, technologies, and audiences.
 
 ### Locus Tempus
 {% include image.html filename="locus-tempus.png" caption="The user interface of Locus Tempus" %}
 {% include project-link.html url="https://locustempus.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/locustempus" text="Repository" %}
 
-{% include pills.html items="Python, Django, Django Rest Framework, TypeScript, React, Webpack, Cypress, LTI" %}
+{% include pills.html items="Python, Django, Django Rest Framework, MyPy, TypeScript, React, Webpack, Cypress, LTI" %}
 
-I am the lead developer of Locus Tempus, a plaform for any instructor at
-Columbia Univiersity to create map-based assignments for thier students. The
-site is built with Python and Django as well as TypeScript and React for the
-mapping environments. It integrates with Columbia's learning management system
-via LTI to authenticate users and route them to their course spaces. It uses Mapbox and
-DeckGL, a WebGL-powered framework for visualizing data layers on maps.
+I am the lead developer of Locus Tempus, a platform for any instructor at
+Columbia University to create map-based assignments for their students. The
+site is built with Python and Django. TypeScript and React is used to implement
+interactive mapping environments. It integrates with Columbia's learning
+management system via LTI to authenticate users and route them to their course
+spaces. It uses Mapbox and DeckGL, a WebGL-powered framework for visualizing
+data layers on maps.
 
 ### Fernande Brielh Decruck
 {% include image.html filename="fbd.png" caption="The homepage for Fernande Breilh Decruck" %}
@@ -28,8 +29,8 @@ DeckGL, a WebGL-powered framework for visualizing data layers on maps.
 The site for Fernande Brielh Decruck is a multi-lingual Django site build using
 the [Wagtail CMS](https://wagtail.io/) framework. The site features a faceted
 search interface for the catalog of Decruck's works. It also includes a
-custom-build storefront for selling musical scores, with payments handled via
-an integration with PayPal.
+storefront for selling digital downloads of musical scores, with payments
+handled via a PayPal integration.
 
 
 ### Stats Interactives
@@ -42,7 +43,8 @@ Stats Interactives is a single page React application that simulates various
 statistic theorems, built for graduate students in the School of International
 and Public Affairs. Because the users are not math or science majors, a key
 objective of this project was to build an engaging experience, and yet not
-gloss over important details of the theorems.
+gloss over important details of the theorems. My favorite of the bunch are the
+spinning graphs of the [Linear Regression Model](https://stats-interactives.ctl.columbia.edu/linear-regression-model).
 
 ### Eureka
 {% include image.html filename="eureka.png" caption="A photo of a Bach cello suite provided the perfect cover image for Eureka's homepage" %}
@@ -63,7 +65,7 @@ content editors.
 {% include pills.html items="Hugo, JavaScript, Webpack, Cypress" %}
 
 Project OHCOE is a site that teaches dental students how to intervene if they
-suspect that thier patients have an opiod problem. I built this project with
+suspect that their patients have an opioid problem. I built this project with
 Hugo, a static site generator written in Go. It also features a number of
 assessments written in JavaScript, as well as custom Google Analytic events to
 capture video analytics.
