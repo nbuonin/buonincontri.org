@@ -14,7 +14,7 @@ My projects span a wide range of topics, technologies, and audiences.
 
 I am the lead developer of Locus Tempus, a platform for any instructor at
 Columbia University to create map-based assignments for their students. The
-site is built with Python and Django. TypeScript and React is used to implement
+site is built with Python and Django. TypeScript and React are used to implement
 interactive mapping environments. It integrates with Columbia's learning
 management system via LTI to authenticate users and route them to their course
 spaces. It uses Mapbox and DeckGL, a WebGL-powered framework for visualizing
