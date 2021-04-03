@@ -1,4 +1,12 @@
 ---
 ---
+$font-family: museo-sans, sans-serif;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           100 !default;
+$font-weight-normal:          500 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
 @import 'bootstrap-5.0.0-beta3/scss/bootstrap';
-@import 'main'
+@import 'main';

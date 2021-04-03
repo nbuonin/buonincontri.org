@@ -1,3 +1,9 @@
+h1, .h1, h2, .h2, h3, .h3 {
+    font-family: museo-sans,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
 nav.sidebar {
     position: fixed;
     top: 0;
@@ -88,15 +94,15 @@ nav.sidebar {
 main {
     padding-top: 90px; 
     @include media-breakpoint-up(md) {
-        padding-top: 1em; 
+        padding-top: 3em; 
     }
-    h3 {
+    h2 {
         margin-top: 1em;
         @include media-breakpoint-up(md) {
-            margin-top: 2.5em;
+            margin-top: 1.5em;
         }
     }
-    h3.tools-header {
+    h2.tools-header {
         margin-top: unset;
     }
     a {
@@ -110,7 +116,10 @@ main {
         margin-left: 0.25em;
         margin-bottom: 5px;
     }
-    .pill-box {
-        margin-bottom: 1em;
+    figure, p, .pill-box, ul, ol {
+        margin-bottom: 1rem;
+        @include media-breakpoint-up(md) {
+            margin-bottom: 1.75rem;
+        }
     }
 }

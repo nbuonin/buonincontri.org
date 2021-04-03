@@ -3,7 +3,7 @@ title: Nick Buonincontri
 layout: base
 permalink: /
 ---
-## About Me
+# About Me
 
 I am a software engineer with 6 years experience building web applications for
 various audiences. I currently work as a programmer for the [Center for

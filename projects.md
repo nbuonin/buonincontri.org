@@ -3,10 +3,10 @@ layout: base
 title: Projects
 permalink: /projects/
 ---
-## Projects
-My projects span a wide range of topics, technologies, and audiences.
+# Projects
+My work spans a wide range of topics, technologies, and audiences.
 
-### Locus Tempus
+## Locus Tempus
 {% include image.html filename="locus-tempus.png" caption="The user interface of Locus Tempus" %}
 {% include project-link.html url="https://locustempus.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/locustempus" text="Repository" %}
 
@@ -20,7 +20,7 @@ management system via LTI to authenticate users and route them to their course
 spaces. It uses Mapbox and DeckGL, a WebGL-powered framework for visualizing
 data layers on maps.
 
-### Fernande Brielh Decruck
+## Fernande Brielh Decruck
 {% include image.html filename="fbd.png" caption="The homepage for Fernande Breilh Decruck" %}
 {% include project-link.html url="https://fernandedecruck.com" text="Site" %} {% include project-link.html url="https://fernandedecruck.fr" text="French Site" %} {% include project-link.html url="https://github.com/nbuonin/decruck-wagtail" text="Repository" %}
 
@@ -33,7 +33,7 @@ storefront for selling digital downloads of musical scores, with payments
 handled via a PayPal integration.
 
 
-### Stats Interactives
+## Stats Interactives
 {% include image.html filename="stats-interactives.png" caption="A simulation of the linear regression model." %}
 {% include project-link.html url="https://stats-interactives.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/stats-interactives" text="Repository" %}
 
@@ -46,7 +46,7 @@ objective of this project was to build an engaging experience, and yet not
 gloss over important details of the theorems. My favorite of the bunch are the
 spinning graphs of the [Linear Regression Model](https://stats-interactives.ctl.columbia.edu/linear-regression-model).
 
-### Eureka
+## Eureka
 {% include image.html filename="eureka.png" caption="A photo of a Bach cello suite provided the perfect cover image for Eureka's homepage" %}
 {% include project-link.html url="https://eureka.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/eureka" text="Repository" %}
 
@@ -58,7 +58,7 @@ was the largest challenge with this site. To facilitate the content entry, I
 wrote a management command to scaffold approximately 300 pages for for the
 content editors.
 
-### Project OHCOE
+## Project OHCOE
 {% include image.html filename="ohcoe.png" caption="SVG hearts were used to show a student's progress" %}
 {% include project-link.html url="https://ohcoe.ctl.columbia.edu" text="Site" %} {% include project-link.html url="https://github.com/ccnmtl/ohcoe" text="Repository" %}
 
@@ -70,7 +70,7 @@ Hugo, a static site generator written in Go. It also features a number of
 assessments written in JavaScript, as well as custom Google Analytic events to
 capture video analytics.
 
-### Tensor Flock
+## Tensor Flock
 {% include project-link.html url="https://github.com/laurenarnett/TensorFlock" text="Repository" %}
 
 {% include pills.html items="OCaml, C, Bash, DroneCI, Docker" %}
@@ -81,7 +81,7 @@ and implemented a compiler for it in OCaml. My contributions to the project
 consisted of writing the testing framework, running a continuous integration
 server, and implemting the lambda lifter.
 
-### Chelsea Symphony
+## Chelsea Symphony
 {% include image.html filename="tcs.png" caption="The Chelsea Symphony" %}
 {% include project-link.html url="https://chelseasymphony.org" text="Site" %} {% include project-link.html url="https://github.com/nbuonin/chelsea-symphony" text="Repository" %}
 

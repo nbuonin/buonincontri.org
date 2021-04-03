@@ -10,7 +10,7 @@ tools:
       - item: Java
       - item: PHP
       - item: Bash
-  - category: Frameworks & Testing
+  - category: Frameworks
     items:
       - item: Django
       - item: Django REST Framework
