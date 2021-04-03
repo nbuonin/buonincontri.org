@@ -11,7 +11,7 @@ var getOutboundLink = function(url) {
         'event_category': 'outbound',
         'event_label': url,
         'transport_type': 'beacon',
-        'event_callback': function(){window.open(url, '_blank');}
+        'event_callback': function(){window.open(url, '_blank');},
         'event_timeout': 1500
     });
 };
