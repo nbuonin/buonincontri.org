@@ -26,7 +26,7 @@ data layers on maps.
 
 {% include pills.html items="Python, Django, Wagtail CMS, JavaScript, Webpack, PayPal, Docker" %}
 
-The site for Fernande Brielh Decruck is a multi-lingual Django site build using
+The site for Fernande Breilh Decruck is a multi-lingual Django site build using
 the [Wagtail CMS](https://wagtail.io/) framework. The site features a faceted
 search interface for the catalog of Decruck's works. It also includes a
 storefront for selling digital downloads of musical scores, with payments
