@@ -20,7 +20,7 @@ management system via LTI to authenticate users and route them to their course
 spaces. It uses Mapbox and DeckGL, a WebGL-powered framework for visualizing
 data layers on maps.
 
-## Fernande Brielh Decruck
+## Fernande Breilh Decruck
 {% include image.html filename="fbd.png" caption="The homepage for Fernande Breilh Decruck" %}
 {% include project-link.html url="https://fernandedecruck.com" text="Site" %} {% include project-link.html url="https://fernandedecruck.fr" text="French Site" %} {% include project-link.html url="https://github.com/nbuonin/decruck-wagtail" text="Repository" %}
 
